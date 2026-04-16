@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Descoperă proiectele Jais Design — colecție de lucrări de design interior și decor de eveniment." />
+  <meta name="robots" content="index, follow" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Portofoliu | Jais Design" />
+  <meta property="og:description" content="Descoperă proiectele Jais Design — colecție de lucrări de design interior și decor de eveniment." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jaisdesign.ro/portfolio.html" />
+  <title>Portofoliu | Jais Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__logo">Jais<span>.</span>Design</a>
+      <nav class="navbar__nav" aria-label="Navigare principală">
+        <a href="index.html">Acasă</a>
+        <a href="portfolio.html">Portofoliu</a>
+        <a href="services.html">Servicii</a>
+        <a href="about.html">Despre</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a href="contact.html" class="btn navbar__cta" aria-label="Cere o ofertă">
+        <span>Cere o Ofertă</span>
+      </a>
+      <button class="navbar__hamburger" aria-label="Deschide meniu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Nav -->
+  <nav class="navbar__mobile" aria-label="Navigare mobilă">
+    <a href="index.html">Acasă</a>
+    <a href="portfolio.html">Portofoliu</a>
+    <a href="services.html">Servicii</a>
+    <a href="about.html">Despre</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn btn--accent" style="margin-top:1rem"><span>Cere o Ofertă</span></a>
+  </nav>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero" aria-labelledby="portfolio-title">
+      <div class="container fade-up">
+        <span class="section-label">Lucrările Noastre</span>
+        <h1 id="portfolio-title">Portofoliu</h1>
+        <p>Fiecare proiect — o poveste spusă prin spațiu, lumină și detaliu.</p>
+      </div>
+    </section>
+
+    <!-- Filter Bar (decorative) -->
+    <section class="section--sm" style="padding-block: var(--space-lg);">
+      <div class="container">
+        <div style="display:flex; gap: var(--space-sm); flex-wrap:wrap; justify-content:center;" role="list" aria-label="Filtre portofoliu">
+          <button class="btn btn--accent" style="font-size:var(--fz-xs);" role="listitem"><span>Toate</span></button>
+          <button class="btn" style="font-size:var(--fz-xs);" role="listitem"><span>Design Interior</span></button>
+          <button class="btn" style="font-size:var(--fz-xs);" role="listitem"><span>Decor Eveniment</span></button>
+          <button class="btn" style="font-size:var(--fz-xs);" role="listitem"><span>Styling Interior</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="section" style="padding-top:0;" aria-label="Grilă portofoliu">
+      <div class="container">
+        <div class="portfolio-grid stagger" role="list">
+          <article class="portfolio-item portfolio-item--placeholder fade-up" aria-label="Proiect Rezidențial Floreasca">
+            <span class="placeholder-icon" aria-hidden="true">🏛</span>
+            <div class="portfolio-item__overlay">
+              <span class="portfolio-item__category">Design Interior</span>
+              <h2 class="portfolio-item__title">Rezidențial Floreasca</h2>
+            </div>
+          </article>
+          <article class="portfolio-item portfolio-item--placeholder fade-up" aria-label="Proiect Nuntă Elegance">
+            <span class="placeholder-icon" aria-hidden="true">✦</span>
+            <div class="portfolio-item__overlay">
+              <span class="portfolio-item__category">Decor Eveniment</span>
+              <h2 class="portfolio-item__title">Nuntă Elegance</h2>
+            </div>
+          </article>
+          <article class="portfolio-item portfolio-item--placeholder fade-up" aria-label="Proiect Penthouse Herăstrău">
+            <span class="placeholder-icon" aria-hidden="true">◈</span>
+            <div class="portfolio-item__overlay">
+              <span class="portfolio-item__category">Styling Interior</span>
+              <h2 class="portfolio-item__title">Penthouse Herăstrău</h2>
+            </div>
+          </article>
+          <article class="portfolio-item portfolio-item--placeholder fade-up" aria-label="Proiect Gală Corporate Athenée">
+            <span class="placeholder-icon" aria-hidden="true">❋</span>
+            <div class="portfolio-item__overlay">
+              <span class="portfolio-item__category">Decor Eveniment</span>
+              <h2 class="portfolio-item__title">Gală Corporate Athenée</h2>
+            </div>
+          </article>
+          <article class="portfolio-item portfolio-item--placeholder fade-up" aria-label="Proiect Vilă Snagov">
+            <span class="placeholder-icon" aria-hidden="true">◎</span>
+            <div class="portfolio-item__overlay">
+              <span class="portfolio-item__category">Design Interior</span>
+              <h2 class="portfolio-item__title">Vilă Snagov</h2>
+            </div>
+          </article>
+          <article class="portfolio-item portfolio-item--placeholder fade-up" aria-label="Proiect Botez Praga">
+            <span class="placeholder-icon" aria-hidden="true">✿</span>
+            <div class="portfolio-item__overlay">
+              <span class="portfolio-item__category">Decor Eveniment</span>
+              <h2 class="portfolio-item__title">Botez Praga</h2>
+            </div>
+          </article>
+          <article class="portfolio-item portfolio-item--placeholder fade-up" aria-label="Proiect Apartament Dorobanți">
+            <span class="placeholder-icon" aria-hidden="true">◈</span>
+            <div class="portfolio-item__overlay">
+              <span class="portfolio-item__category">Styling Interior</span>
+              <h2 class="portfolio-item__title">Apartament Dorobanți</h2>
+            </div>
+          </article>
+          <article class="portfolio-item portfolio-item--placeholder fade-up" aria-label="Proiect Restaurant Concept">
+            <span class="placeholder-icon" aria-hidden="true">◎</span>
+            <div class="portfolio-item__overlay">
+              <span class="portfolio-item__category">Design Interior</span>
+              <h2 class="portfolio-item__title">Restaurant Concept</h2>
+            </div>
+          </article>
+          <article class="portfolio-item portfolio-item--placeholder fade-up" aria-label="Proiect Logodnă Palas">
+            <span class="placeholder-icon" aria-hidden="true">✦</span>
+            <div class="portfolio-item__overlay">
+              <span class="portfolio-item__category">Decor Eveniment</span>
+              <h2 class="portfolio-item__title">Logodnă Palas</h2>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section--sm" style="background: var(--clr-text);" aria-labelledby="port-cta">
+      <div class="container text-center fade-up">
+        <span class="section-label">Colaborează cu Noi</span>
+        <h2 id="port-cta" style="color:var(--clr-white); margin-bottom:var(--space-sm);">Vrei un proiect similar?</h2>
+        <p style="color:rgba(255,255,255,0.7); margin-inline:auto; margin-bottom:var(--space-lg);">
+          Hai să discutăm despre viziunea ta și cum o putem transforma în realitate.
+        </p>
+        <a href="contact.html" class="btn btn--accent"><span>Contactează-ne</span></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="index.html" class="navbar__logo">Jais<span>.</span>Design</a>
+          <p>Transformăm spații în experiențe. Design de interior și decor eveniment cu rafinament și precizie artistică.</p>
+        </div>
+        <div class="footer__col">
+          <h5>Navigare</h5>
+          <ul>
+            <li><a href="index.html">Acasă</a></li>
+            <li><a href="portfolio.html">Portofoliu</a></li>
+            <li><a href="services.html">Servicii</a></li>
+            <li><a href="about.html">Despre Noi</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="https://wa.me/40700000000" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a href="https://instagram.com/jaisdesign" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="mailto:contact@jaisdesign.ro">contact@jaisdesign.ro</a></li>
+            <li><a href="politica-confidentialitate.html">Politică de Confidențialitate</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2025 Jais Design. Toate drepturile rezervate.</p>
+        <p>Creat cu pasiune în România · <a href="politica-confidentialitate.html">GDPR</a></p>
+      </div>
+    </div>
+  </footer>
+  <!-- Cookie Banner -->
+  <div class="cookie-banner" role="dialog" aria-label="Consimțământ cookie-uri" aria-live="polite">
+    <p>
+      Folosim cookie-uri pentru a-ți oferi cea mai bună experiență pe site-ul nostru.
+      Prin continuarea navigării, ești de acord cu
+      <a href="politica-confidentialitate.html">Politica de Confidențialitate</a>.
+    </p>
+    <div class="cookie-banner__actions">
+      <button class="btn btn--white cookie-btn-decline"><span>Refuz</span></button>
+      <button class="btn btn--filled cookie-btn-accept"><span>Accept</span></button>
+    </div>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
